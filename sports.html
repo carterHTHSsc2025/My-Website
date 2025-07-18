@@ -2,7 +2,69 @@
 	<head>
 	<title>Sports></title>
 	</head>
+			<style>
+			#t {
+				width:100%;
+				border-spacing:0;
+				border-collapse:collapse;
+			}
+			
+			#h {
+				margin:0;
+				padding:0;
+			}
+			
+			#d1{
+				background-color: skyblue
+			}
+			
+			#d2{
+				background-color: turquoise;
+				width:10%;
+				vertical-align:top;
+			}
+			
+			#d3{
+				background-image: url(https://i.pinimg.com/originals/89/7f/c4/897fc49983580ffca4a4103ae35e3067.jpg);
+				background-color:skyblue;
+				height:600px;
+				width:90%;
+				vertical-align:middle;
+				text-align:center;
+			}
+			
+			#d4{
+				background-color:pink;
+				text-align:center;
+			}
+		</style>
 	<body>
+	<table id=t>
+			<tr>
+				<td colspan=2 id=d1>
+					<!-- This heading goes across top of page -->
+					<h1 align=center> <font size=99 color=Purple face=verdana> <b>This is my Sports Page</b></font></h1>
+				</td>
+			</tr>
+			
+			<tr>
+				<td id=d2>
+				<br/>
+				<p align=center>
+					<span style="font-weight:bold">Links</span>
+					<br/><br/><br/>
+					<!-- These elements on the left are used as hyperlinks between pages-->
+					<span style="font-weight: bold; color: white;"> Sports Page </span><br/><br/><br/>
+					<a href= "index.html"> Home Page </a> <br/><br/><br/>
+					<a href= "games.html"> Games </a> <br/><br/><br/>
+					<a href= "food.html"> Food </a> <br/><br/><br/>
+					<a href= "friendsnfamily.html"> Friends and family </a> <br/><br/><br/>
+					<a href= "favanimals.html"> Favorite Animals </a> <br/><br/><br/>
+				</p>
+				</td>
+				<td id=d3>
+					<p width="100%" align=center>
+					<!-- This tiny section is the main body of the webpage-->
 	<h1>Welcome to my sports page<h1>
 	<h2>Cool sports</h2>
 	<p>Sports are a great way to stay active amd have fun. Here are some of the most of my favorite sports.</p>
@@ -16,6 +78,17 @@
 	<img src="fishing.png" height="600px" width="300px" align="center">
 	<img src="fishing2.png" height="600px" width="300px" align="center">
 	<p> <img src="hiking.png" height="600px" width="300px" align="center"> </p>
-	<p> Thank you for visiting my Sports Page!</p>
+					</td>
+			</tr>
+			<tr>
+				<td colspan=2 id=d4>
+		<p align=center><font face= verdana color= blue size=3> 
+			<!-- For messages, footnotes, or other info at bottom of page-->
+			Thanks for checking out the sports page!		
+		</font>
+		</p>
+				</td>
+			</tr>
+		</table>
 	</body>
 </html>
